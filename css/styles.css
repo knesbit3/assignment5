@@ -1,0 +1,114 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    color: #ccc;
+}
+
+.cis260specialgreen {
+    color: #16ed50;
+}
+
+
+#cis-special-parent a {
+    color: bisque;
+
+}
+
+
+#content p {
+    color: blue;
+}
+
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.1)), url(../images/dog.jpeg);
+    /*    background-image: url(../images/dogicon%20.png);*/
+    background-color: aqua;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+div ul li {
+    color: red;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    /*    flex-direction: column;*/
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+footer {
+    flex: 1;
+}
+
+@media screen and (max-width: 40rem) {
+    .container,
+    header,
+    main,
+    footer {
+        flex-direction: column;
+    }
+
+    h2 {
+        border-radius: 20px;
+    }
+}
+
+h1 {
+    border: 4px solid #ff0000;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #282828;
+
+    background-color: lemonchiffon;
+    opacity: 0.9;
+    background-image: linear-gradient( white, pink);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+form p {
+    display: flex;
+    margin-bottom: 1em;
+
+}
+
+form label {
+    flex-basis: 33%;
+}
+
+Form input,
+textarea,
+select {
+    flex: 1;
+/*    margin: 10 ;*/
+    border-radius: 5px;
+}
+
+form select {
+    text-align: center;
+}
+
+.thanks {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 3em;
+
+}
+
+.checkboxes {}
+
+.radio-buttons {}

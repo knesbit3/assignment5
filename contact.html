@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="images/dogicon%20.png" alt="paw logo" height="75"> </a>
+
+        <nav>
+
+            <ul>
+                <li><a href="adoptadog.html">Adopt a Dog</a></li>
+                <li><a href="adoptacat.html">Adopt a Cat</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <form action="thanks.html">
+            <p> Please fill out this information:</p>
+            <p>
+                <label for="firstname">First name: </label>
+                <input type="text" name="Firstname" id="firstname">
+            </p>
+            <p>
+                <label for="Lastname">Last name: </label>
+                <input type="text" name="Lastname" id="Lastname">
+            </p>
+            <p>
+                <label for="Email">Email: </label>
+                <input type="text" name="Email" id="Email">
+            </p>
+
+            <p>
+                <label> How would you like us to contact you?</label>
+                <select name="how-you-heard" id="how-you-heard" multiple>
+                    <option value="email">Email</option>   
+                    <option value="call">Phone Call</option>
+                    <option value="text">Text</option>  
+                    <option value="mail">Mail</option>
+                    
+                </select>
+
+            </p>
+
+            <p>
+
+                <label for="comments">Comments:</label>
+                <textarea name="comments" id="comments" rows="4" cols="40"></textarea>
+            </p>
+
+            <div class="radio-buttons">
+                <label> Would you like to join out newsletter?</label>
+                <input type="radio" name="join-newsletter" value="Yes" checked>Yes
+                <input type="radio" name="join-newsletter" value="No">No
+
+
+            </div>
+            <div class= "checkboxes">
+                <label> What type of pet are you interested in?</label>
+                <input type="checkbox" name="type-of-pet" value="Cat">Cat
+                <input type="checkbox" name="type-of-pet" value="Dog">Dog
+
+                <input type="checkbox" name="type-of-pet" value="Other">Other
+
+                <p>
+                    <label></label>
+                    <input type="submit" value="submit">
+                    <input type="Reset" value="Reset">
+                </p>
+
+
+
+
+            </div>
+
+        </form>
+
+
+
+
+
+    </main>
+
+    <footer>
+        <a href="https://www.adoptapet.com/cat-adoption" target="_blank">Adopt a cat online</a>
+
+    </footer>
+
+
+    <p id="cis-special-parent"> This is the parent
+        <a href="index.html">Demo</a>
+        <a href="index.html">Features</a>
+
+
+    </p>
+
+</body>
+
+</html>
