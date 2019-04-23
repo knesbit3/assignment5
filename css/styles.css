@@ -112,3 +112,12 @@ form select {
 .checkboxes {}
 
 .radio-buttons {}
+
+a:hover{ 
+Color:green;
+}
+a {
+    transition: background-color .3s, color .3s;
+    text-decoration: none;
+    text-transform: uppercase; 
+}
